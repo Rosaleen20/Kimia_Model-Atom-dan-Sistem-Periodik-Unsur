@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Struktur Atom & Tabel Periodik Unsur</title>
+  </head>
+  <body>
+    <!-- Navigasi Awal -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"><a href="#StrukturAtom">Struktur Atom & Sistem Periodik Unsur</a></span>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Struktur Atom </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#PartikelDasar">Partikel dasar penyusun atom</a></li>
+                  <li><a class="dropdown-item" href="#PerkembanganAtom">Perkembangan teori atom</a></li>
+                  <li><a class="dropdown-item" href="#Kuantum">Bilangan Kuantum</a></li>
+                  <li><a class="dropdown-item" href="#KonfigurasiElektron">Konfigurasi elektron</a></li>
+                  <li><a class="dropdown-item" href="#DiagramOrbital">Diagram orbital</a></li>
+                  <li><a class="dropdown-item" href="#Notasi">Notasi atom</a></li>
+                  <li><a class="dropdown-item" href="#Iso">Isotop, Isobar, Isoton, dan Isoelektron</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tabel Periodik Unsur </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#Tabelperiodik">Tabel Periodik Unsur</a></li>
+                  <li><a class="dropdown-item" href="#Perkembangan">Perkembangan sistem periodik unsur</a></li>
+                  <li><a class="dropdown-item" href="#PeriodedanGolongan">Periode dan golongan</a></li>
+                  <li><a class="dropdown-item" href="#Sifat">Sifat keperiodikan unsur</a></li>
+                </ul>
+              </li>
+              <a class="komen" href="#Soal">Soal</a>
+              <a class="komen" href="#Contact">Comment</a>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigasi Akhir -->
+    <!-- Struktur Atom Awal -->
+    <section class="jumbotron text-center pt-5" id="StrukturAtom">
+      <img src="img/atom.jpg" alt="" width="600px" height="338px" >
+      <h1 class="display-4">Struktur Atom</h1>
+      <p class="lead">Atom adalah suatu satuan dasar materi, yang terdiri atas inti atom serta awan elektron bermuatan negatif yang mengelilinginya. Inti atom terdiri atas proton yang bermuatan positif, dan neutron yang bermuatan netral. Atom berasal dari Bahasa Yunani (τομος/átomos, α-τεμνω), yang berarti tidak dapat dipotong ataupun sesuatu yang tidak dapat dibagi-bagi lagi disebut juga dengan partikel terkecil yang tidak dapat dibelah lagi. </p></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L48,101.3C96,139,192,213,288,218.7C384,224,480,160,576,122.7C672,85,768,75,864,106.7C960,139,1056,213,1152,218.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!-- Struktur Atom Akhir -->
+    <!-- Partikel Dasar Penyusun Atom Awal -->
+    <section class="pt-5" id="PartikelDasar">
+      <div class="container">
+        <div class="row pb-5"><h2>Partikel Dasar Penyusun Atom</h2></div>
+        <div class="row pb-3">Atom tersusun atas partikel-partikel sub atom tertentu dan tidak tergantung pada jenis unsurnya. Partikel tersebut diantaranya adalah elektron, proton, dan neutron. Proton dan neutron terletak di inti atom, sedangkan elektron terletak di luar inti atom yang mengelilingi inti atom.</div>
+        <div class="row justify-content-center text-center">
+          <table class="table table-bordered border-info">
+            <tr>
+              <td>Partikel</td>
+              <td>Muatan</td>
+              <td>Massa (kg)</td>
+              <td>Lambang</td>
+              <td>Penemu</td>
+            </tr>
+            <tr>
+              <td>Proton</td>
+              <td>+1</td>
+              <td>1,673 x 10<sup>-27</sup></td>
+              <td><sup>1</sup>p<sub>1</sub></td>
+              <td>Goldstein (1886)</td>
+            </tr>
+            <tr>
+              <td>Neutron</td>
+              <td>0</td>
+              <td>1,675 x 10<sup>-27</sup></td>
+              <td><sup>1</sup>n<sub>0</sub></td>
+              <td>J.Chadwick (1932)</td>
+            </tr>
+            <tr>
+              <td>Elektron</td>
+              <td>-1</td>
+              <td>9,110 x 10<sup>-31</sup></td>
+              <td><sup>0</sup>e<sub>-1</sub></td>
+              <td>Thompson (1987)</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,32L48,64C96,96,192,160,288,165.3C384,171,480,117,576,106.7C672,96,768,128,864,165.3C960,203,1056,245,1152,266.7C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L48,224C96,192,192,128,288,112C384,96,480,128,576,165.3C672,203,768,245,864,245.3C960,245,1056,203,1152,154.7C1248,107,1344,53,1392,26.7L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+    <!-- Partikel Dasar Penyusun Atom Akhir -->
+    <!-- Perkembangan Teori Atom Awal -->
+    <section class="pt-5" id="PerkembanganAtom">
+      <div class="container">
+        <div class="row pb-5">
+          <h2>Perkembangan Teori Atom</h2>
+        </div>
+        <div class="row fw-bold justify-content-center text-center turunin">
+          <div class="col-md-10">a. Dalton</div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <img src="img/Dalton.jpg" width="400px" height="210px" alt="">
+            <div class="dalton justify-content-center text-center pt-3">Atom adalah bagian terkecil dari materi yang tidak dapat dibagi lagi.Atom berbentuk seperti bola pejal.</div>
+          </div>
+          <div class="col-md-6 justify-content-center text-center">
+            <img src="img/daltonmodel.jpg" width="300px" height="300px" alt="">
+          </div>
+        </div>
+        <div class="row fw-bold turunin text-center justify-content-center">
+          <div class="col-md-10">b. Thompson</div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <img src="img/thompson.jpg" width="167px" height="250px" alt="">
+            <div class="thompson justify-content-center text-center pt-4">Atom terdiri dari muatan positif dan di dalamnya tersebar elektron bagaikan kismis pada roti kismis.</div>
+          </div>
+          <div class="col-md-6 justify-content-center text-center ">
+            <img src="img/thompsonmodel.jpg" width="300px" height="300px" alt="">
+          </div>
+        </div>
+        <div class="row fw-bold turunin text-center justify-content-center">
+          <div class="col-md-10">c. Rutherford</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <img src="img/rurtherford.jpg" width="300px" height="300px " alt="">
+            <div class="rutherford justify-content-center text-center pt-3">Atom terdiri atas inti atom yang bermuatan positif dan elektron-elektron bermuatan negatif yang beredar mengelilingi inti atom.</div>
+          </div>
+          <div class="col-md-6 justify-content-center text-center">
+            <img src="img/rutherfordmodel.png" width="300px" height="300px" alt="">
+          </div>
+        </div>
+        <div class="row text-center justify-content-center fw-bold turunin">
+          <div class="col-md-10">d. Bohr</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <img src="img/Bohr.jpg" alt="" width="400px" height="236px">
+            <div class="bohr justify-content-center text-center">Atom terdiri dari inti atom yang bermuatan positif dan elektron yang bergerak mengelilingi inti atom pada tingkat-tingkat energi tertentu.</div>
+          </div>
+          <div class="col-md-6 justify-content-center text-center">
+            <img src="img/bohrmodel.jpg" width="300px" height="300px" alt="">
+          </div>
+        </div>
+        <div class="row text-center justify-content-center fw-bold mb-5">
+          <div class="col-md-10">e. Mekanika Kuantum</div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-10">Kedudukan elektron dalam atom tidak dapat ditentukan secara pasti, yang dapat ditentukan adalah daerah kemungkinan atau kebolehjadian menemukan elektron terbesar (orbital).Ilmuwan yang berperan adalah:</div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4">Erwin Schrodinger</div>
+          <div class="col-md-4">Werner Heisenberg</div>
+          <div class="col-md-4">Louis de Broglie</div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="img/schrodinger.jpg" width="300px" height="300px" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="img/heisenberg.jpg" width="300px" height="300px" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="img/brogile.jpg" width="300px" height="300px"  alt="">
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,32L40,48C80,64,160,96,240,138.7C320,181,400,235,480,229.3C560,224,640,160,720,149.3C800,139,880,181,960,197.3C1040,213,1120,203,1200,181.3C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,32L40,48C80,64,160,96,240,138.7C320,181,400,235,480,229.3C560,224,640,160,720,149.3C800,139,880,181,960,197.3C1040,213,1120,203,1200,181.3C1280,160,1360,128,1400,112L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </section>
+    <!-- Perkembangan Teori Atom Akhir -->
+    <!-- Bilangan Kuantum Awal -->
+    <section id="Kuantum" class="pt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <h2>Bilangan Kuantum</h2>
+        </div>
+        <div class="row mb-3">Adalah bilangan-bilangan yang menyatakan lokasi suatu elektron dalam atom, sehingga elektron tersebut dapat dibedakan dari elektron-elektron yang lain.</div>
+        <div class="row fw-bold mb-3">
+          <div class="col-md-6">a. Bilangan Kuantum Utama</div>
+          <div class="col-md-6">c. Bilangan Kuantum Magnetik</div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <p>(n) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> nomor kulit (besarnya energi)</p>
+            <p>Nilai n = 1,2,3,dst</p>
+            <p>Kulit K<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> n = 1, L <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> n = 2, M <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> n = 3, dst</p>
+          </div>
+          <div class="col-md-6">
+            <p>m atau m<sub>l</sub> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> nomor orbital (orientasi atau arah orbital)</p>
+            <p>Nilai m = -l s.d +l</p>
+            <p>Subkulit s <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> m = 0</p>
+            <p>Subkulit p <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> m = -1,0,+1</p>
+            <p>Subkulit d <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> m = -2,-1,0,+1,+2</p>
+            <p>Subkulit f <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> m = -3,-2,-1,0,+1,+2,+3</p>
+          </div>
+        </div>
+        <div class="row mb-3 fw-bold">
+          <div class="col-md-6">b. Bilangan Kuantum Azimuth</div>
+          <div class="col-md-6">e. Bilangan Kuantum Spin</div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>(l) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> nomor subkulit</p>
+            <p>Nilai l = (n - 1) = 0,1,2,3,dst</p>
+            <p>Subkulit s (<i>sharp</i>) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 0</p>
+            <p>Subkulit p (<i>principal</i>) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 1</p>
+            <p>Subkulit d (<i>diffuse</i>) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 2</p>
+            <p>Subkulit f (<i>fundamental</i>) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 3</p>
+            <p>n = 1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> s <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 0</p>
+            <p>n = 2 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> s,p <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 0,1</p>
+            <p>n = 3 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> s,p,d <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 0,1,2</p>
+            <p>n = 4 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> s,p,d,f <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> l = 0,1,2,3</p>
+            <p>dst.</p>
+          </div>
+          <div class="col-md-6">
+            <p>s atau m<sub>s</sub> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> arah putaran atau rotasi elektron pada sumbunya</p>
+            <p>Untuk membedakan arah putar elektron, maka diberikan tanda putar positif dan negatif.Jadi, nilai s ada dua macam yaitu s = +1/2 atau s = -1/2</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,170.7C560,139,640,85,720,101.3C800,117,880,203,960,197.3C1040,192,1120,96,1200,53.3C1280,11,1360,21,1400,26.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,213.3C320,213,400,203,480,170.7C560,139,640,85,720,101.3C800,117,880,203,960,197.3C1040,192,1120,96,1200,53.3C1280,11,1360,21,1400,26.7L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </section>
+    <!-- Bilangan Kuantum Akhir -->
+    <!-- Konfigurasi Elektron Awal -->
+    <section id="KonfigurasiElektron" class="pt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <h2>Konfigurasi Elektron</h2>
+        </div>
+        <div class="row mb-3">Konfigurasi elektron menggambarkan distribusi elektron dalam sebuah orbital yang mungkin dalam suatu atom.Dengan mengetahui konfigurasi elektron, jumlah elektron pada kulit terluar dapat ditentukan. Banyaknya jumlah elektron terluar dari suatu atom menentukan difat-sifat kimia suatu unsur. Beberapa kaidah yang harus diketahui dalam penentuan konfigurasin elektron sebagai berikut.</div>
+        <div class="row mb-3">a. Menurut Bohr</div>
+        <div class="row turunin2">
+          <p>Atom terdiri atas bermacam kulit (tingkat energi). Makin jauh dari inti, makin tinggi tingkat energi kulit.</p>
+          <p>Bilangan yang menunjukkan tingkat energi diberi lambang n <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg> menunjukkan nomor kulit atom.Tiap kulit maksimum menampung 2n<sup>2</sup> elektron.</p>
+          <p>Kulit K maksimal 2 . 1<sup>2</sup> = 2 elektron</p>
+          <p>Kulit L maksimal 2 . 2<sup>2</sup> = 8 elektron</p>
+          <p>Kulit M maksimal 2 . 3<sup>2</sup> = 18 elektron</p>
+          <p>Kulit N maksimal 2 . 4<sup>2</sup> = 32 elektron</p>
+        </div>
+        <div class="kotak justify-content-center">
+          <p>Aturan penulisan konfigurasi elektron khusus golongan utama (golongan A)</p>
+          <ol type="1">
+            <li>Isikan elektron di kulit yang lebih dalam sampai maksimal terlebih dahulu, kemudian baru ke kulit selanjutnya. </li>
+            <li>Jika sisa elektrom > 8 dan < 18, maka isikan di kulit berikutnya sebanyak 8 </li>
+            <li>Jika sisa elektron > 18 dan < 32, maka isikian di kulit berikutnya sebanyak 18</li>
+            <li>Maksimal terisi 8 elektron pada kulit terluar</li>
+          </ol>
+          <div class="satu">
+          <p>Contoh:</p>
+          <p><sub>7</sub>Cl: 2-8-7</p>
+          <p><sub>20</sub>Ca: 2-8-8-2</p>
+          <p><sub>35</sub>Br: 2-8-18-7</p>
+          <p><sub>56</sub>Ba: 2-8-18-18-8-2</p>
+          </div>
+        </div>
+        <div class="row mb-3">b. Menurut Mekanika Kuantum</div>
+        <div class="row">
+          <p>Dalam penulisan konfigurasi elektron, jumlah elektron ditulis sebagai angka kecil di sisi kanan atas lambang orbital</p>
+          <p>Untuk atom-atom berelektron banyak, penulisan konfigurasi elektron mengikuti beberapa aturan, yaitu:</p>
+        </div>
+        <div class="row fw-bold mb-3">1) Prinsip Aufbau</div>
+        <div class="row">
+          <p>Pengisisan elektron pada orbital dimulai dari tingkat energi ang lebih rendah kemudian ke tingkat energi yang lebih tinggi.</p>
+          <p>Penyusunan konfigurasi elektron menurut prinsip Aufbau akan menjadi mudah diingat jika urutan pengisian elektron dijadikan dalam suatu bentuk diagram <i>mnemonic</i> dalam berbagai model. Modifikasi yang paling umum diusulkan oleh Uncle Wiggly (1983) sebagai berikut:</p>
+        </div>
+        <img src="img/konfiguarasi.gif" width="180px" height="280px" alt="" class="turunin">
+        <div class="kotak2">
+          <p class="fw-bold">Ingat!Ingat!</p>
+          <p>Prinsip Aufbau hanya tepat untuk jumlah elektron pada tiap orbital dengan beberapa pengecualian dan urutan urutan energi orbital ternyata hanya tepat untuk 20 atom unsur utama. Untuk atom-atom untuk nomor atom lebih besar yang melibatkan orbital d dan f, urutan energinya ditentukan oleh bilangan kuantum utama (n), misalnya, energi (n - 1)d<sup>x</sup> lebih rendah daripada energi ns<sup>(1-2)</sup></p>
+          <p>Contoh:</p>
+          <p>Konfigurasi elektron atom <sub>21</sub>Sc:</p>
+          <ol type="I">
+            <li>Menurut prinsip Aufbau model madelung: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>1</sup></li>
+            <li>Menurut urutan tingkat energi (bilangan kuantum utama): 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>1</sup> 4s<sup>2</sup> disingkat menjadi [Ar] 3d<sup>1</sup> 4s<sup>2</sup></li>
+          </ol>
+        </div>
+        <div class="kotak3">
+          <p class="fw-bold">Catatan:</p>
+          <ul>
+            <li>Penulisan konfigurasi elektron untuk unsur dengan nomor atom > 20 yang paking tepat adalah seperti model II (menurut urutan tingkat energi) di atas, tetapi sebagian besar soal yang muncul kadang masih menggunakan model I.</li><br>
+            <li>Konfigurasi elektron dari gas mulia dapat digunakan untuk menyingkat konfigurasi elektron dari atom-atom yang mempunyai jumlah elektron (bernomor atom) besar.<br>Contoh:<br><sub>11</sub>Na: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>1</sup> bisa disiingkat menjadi [Ne] 3s<sup>1</sup><br><sub>21</sub>Sc: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>1</sup> 4s<sup>2</sup></li><br>
+            <li>Sub kulit d cenderung penuh (d<sup>10</sup>) atau setengah penuh (d<sup>5</sup>), sehingga struktur d<sup>4</sup> dan d<sup>9</sup> tidak dimiliki atom-atom.<br>Contoh:</li><br>
+            <table class="table table-bordered">
+              <tr>
+                <td>Unsur</td>
+                <td>Menurut Teori</td>
+                <td>Menurut Eksperimen</td>
+              </tr>
+              <tr>
+                <td><sub>24</sub>Cr</td>
+                <td>[Ar] 3d<sup>4</sup> 4s<sup>2</sup></td>
+                <td>[Ar] 3d<sup>5</sup> 4s<sup>1</sup></td>
+              </tr>
+              <tr>
+                <td><sub>29</sub>Cu</td>
+                <td>[Ar] 3d<sup>9</sup> 4s<sup>2</sup></td>
+                <td>[Ar] 3d<sup>10</sup> 4s<sup>1</sup></td>
+              </tr>
+              <tr>
+                <td><sub>42</sub>Mo</td>
+                <td>[Kr] 4d<sup>4</sup> 5s<sup>2</sup></td>
+                <td>[Kr] 4d<sup>5</sup> 5s<sup>1</sup></td>
+              </tr>
+            </table>
+          </ul>
+        </div>
+        <div class="row fw-bold mb-3">2) Aturan Hund</div>
+        <div class="row mb-3">Pada pengisian orbital-orbital dengan tingkat energi yang sama, yaitu orbital-orbital dalam satu subkulit, mula-mula elektron akan menempati orbital secara sendiri-sendiri dengan spin yang paralel, baru kemudian berpasangan.</div>
+        <div class="row fw-bold mb-3">3) Larangan Pauli</div>
+        <div class="row turunin3">
+          <p>Dalam suatu atom tidak boleh ada dua elektron yang mempunyai keempat bilangan kuantum (n, l, m, dan s) yang sama. Satu orbital maksimum terisi oleh dua elektron dengan spin yang berbeda.</p>
+          <p>Contoh:</p>
+          <p>Helium pada keadaan dasar memiliki 2 elektron dalam orbital 1s, tetapi dengan spin yang berlawanan, dengan elektron pertamanya memiliki spin +1/2 dan elektron kedua memiliki spin -1/2</p>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L40,218.7C80,181,160,107,240,101.3C320,96,400,160,480,186.7C560,213,640,203,720,197.3C800,192,880,192,960,170.7C1040,149,1120,107,1200,128C1280,149,1360,235,1400,277.3L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,0L40,10.7C80,21,160,43,240,74.7C320,107,400,149,480,154.7C560,160,640,128,720,138.7C800,149,880,203,960,229.3C1040,256,1120,256,1200,218.7C1280,181,1360,107,1400,69.3L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </section>
+    <!-- Konfigurasi Elektron Akhir -->
+    <!-- Diagram Orbital Awal -->
+    <section id="DiagramOrbital" class="pt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <h2>Diagram Orbital</h2>
+        </div>
+        <div class="row">
+          <p>Diagram orbital menunjukkan sebaran elektron dalam orbital-orbital pada suatu atom. Diagram orbital umumnya hanya dituliskan untuk elektron valensi. Elektron valensi adalah elektron-elektron yang digunakan dalam pembentukkan ikatan kimia.Yang harus diperhatikan dalam pembuatan diagram orbital:</p>
+          <ol type="1">
+            <li>Orbital-orbital dilambangkan dengan kotak.</li>
+            <li>Elektron dilambangkan sebagai tanda panah dalam kotak.</li>
+            <li>Banyaknya kotak ditentukan berdasarkan bilangan kuantum magnetik, subkulit s = 1 kotak, subkulit p = 3 kotak, subkulit d = 5 kotak, subkulit f = 7 kotak</li>
+            <li>Untuk orbital-orbital berenergi sama dilambangkan dengan sekelompok kotak ang bersisian, sedangkan orbital dengan tingkat energi berbeda digambarkan dengan kotak yang terpisah.</li>
+            <li>Satu kotak orbital berisi dua elektron, satu tanda panah mengarah ke atas dan satu lagi mengarah ke bawah yang menggambarkan spin elektron. Pengisian elektron dalam kotak-kotak orbital menggunakan aturan Hund.</li>
+          </ol>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,112C274.3,117,343,203,411,218.7C480,235,549,181,617,181.3C685.7,181,754,235,823,261.3C891.4,288,960,288,1029,256C1097.1,224,1166,160,1234,154.7C1302.9,149,1371,203,1406,229.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,112C274.3,117,343,203,411,218.7C480,235,549,181,617,181.3C685.7,181,754,235,823,261.3C891.4,288,960,288,1029,256C1097.1,224,1166,160,1234,154.7C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </section>
+    <!-- Diagram Orbital Akhir -->
+    <!-- Notasi Atom Awal-->
+    <section id="Notasi" class="pt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <h2>Notasi Atom</h2>
+        </div>
+        <div class="row mb-3">
+          <p class="notasi"><sup>A</sup>X<sub>Z</sub></p>
+          <p>X = Jenis atom<br>A = Nomor massa<br>Z = Nomor atom</p>
+          <ul>
+            <li>
+              <p class="fw-bold">Atom Netral (tidak bermuatan)</p>
+              <p>Jumlah proton = jumlah elektron = nomor atom</p>
+              <p>Contoh:<br><sup>12</sup>C<sub>6</sub> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+              </svg> jumlah proton = 6, jumlah elektron = 6</p>
+            </li>
+            <li>
+              <p class="fw-bold">Atom Bermuatan Positif (kation)</p>
+              <p>Atom ini melepaskan elektron sehingga kelebihan proton<br>Jumlah proton = Nomor atom<br>Jumlah elektron = Nomor atom - muatan</p>
+              <p>Contoh:<br><sup>24</sup>Mg<sub>12</sub><sup>2+</sup> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+              </svg> Jumlah proton = 12, Jumlah elektron = 12 - 2 = 10</p>
+            </li>
+            <li>
+              <p class="fw-bold">Atom bermuatan negatif (anion)</p>
+              <p>Atom ini menangkap suatu elektron sehingga jumlah elektron lebih banyak dari jumlah protonnya<br>Jumlah proton = nomor atom<br>Jumlah elektron = nomor atom - muatan</p>
+              <p>Contoh:<br><sup>32</sup>S<sub>16</sub><sup>2-</sup> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+              </svg> Jumlah proton = 16, jumlah elektron = 16 - (-2) = 18</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,64L34.3,80C68.6,96,137,128,206,117.3C274.3,107,343,53,411,74.7C480,96,549,192,617,229.3C685.7,267,754,245,823,218.7C891.4,192,960,160,1029,149.3C1097.1,139,1166,149,1234,181.3C1302.9,213,1371,267,1406,293.3L1440,320L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,64L34.3,80C68.6,96,137,128,206,117.3C274.3,107,343,53,411,74.7C480,96,549,192,617,229.3C685.7,267,754,245,823,218.7C891.4,192,960,160,1029,149.3C1097.1,139,1166,149,1234,181.3C1302.9,213,1371,267,1406,293.3L1440,320L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </section>
+    <!-- Notasi Atom Akhir-->
+    <!-- Isotop, Isobar, Isoton, dan Iso elektron Awal-->
+    <section id="Iso" class="pt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <h2>Isotop, Isobar, Isoton, dan Isoelektron</h2>
+        </div>
+        <div class="row">
+          <ol type="a">
+            <li>Isotop <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> atom-atom dengan nomor atom (jumlah proton) sama, tetapi nomor massa berbeda<br>Contoh: <sup>35</sup>Cl<sub>17</sub> dan <sup>37</sup>Cl<sub>17</sub></li><br>
+            <li>Isobar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> atom-atom dengan nomor massa sama, tetapi nomor atom berbeda<br>Contoh: <sup>14</sup>N<sub>7</sub> dan <sup>14</sup>C<sub>6</sub></li><br>
+            <li>Isoton <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> atom-atom yang jumlah neutronnya sama<br>Contoh: <sup>31</sup>P<sub>15</sub> dan <sup>32</sup>S<sub>6</sub></li><br>
+            <li>Isoelektron <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg> atom-atom dengan jumlah elektron sama<br>Contoh: <sup>23</sup>Na<sub>11</sub><sup>+</sup> dan <sup>24</sup>Na<sub>12</sub><sup>2+</sup></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- Isotop, Isobar, Isoton, dan Iso elektron Akhir -->
+    <!-- Tabel Periodik Unsur Awal -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,32L30,53.3C60,75,120,117,180,154.7C240,192,300,224,360,218.7C420,213,480,171,540,176C600,181,660,235,720,261.3C780,288,840,288,900,277.3C960,267,1020,245,1080,208C1140,171,1200,117,1260,90.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    <section class="jumbotron text-center pt-5" id="Tabelperiodik">
+      <img src="img/Header.jpg" alt="" width="600px" height="338px" >
+      <h1 class="display-4">Tabel Periodik Unsur</h1>
+      <p class="lead">Tabel periodik unsur adalah sebuah susunan tabel yang terdiri dari banyaknya unsur yang ada di kimia yang diurutkan berdasarkan kenaikan nomor atom.Di dalam sistem periodik,terdapat sebuah pola berulang yang disebut dengan "hukum periodik".Pada setiap unsur dengan golongan yang sama, memiliki sifat yang sama pula,di lain sisi,sebagian besar dari mereka akan bersifat logam di periode bagian kiri dan semakin ke kanan akan semakin bersifat non-logam.</p>
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L48,101.3C96,139,192,213,288,218.7C384,224,480,160,576,122.7C672,85,768,75,864,106.7C960,139,1056,213,1152,218.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    <!-- Tabel Periodik Unsur Akhir -->
+    <!-- Perkembangan Sistem Periodik Unsur Awal -->
+    <section class="pt-5" id="Perkembangan">
+      <div class="container">
+        <div class="row text-center justify-content-center mb-5">
+          <h2>Perkembangan Sistem Periodik Unsur</h2></div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-5 mb-3 fw-bold">Triade Dobereiner</div>
+          <div class="col-md-5 mb-3 fw-bold" >Oktaf Newlands</div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-5 mb-5">Unsur-unsur yang memiliki sifat yang sama dikelompokkan ke dalam kelompok kelompok yang terdiri atas tiga unsur (Triade),di mana massa atom relatatif unsur yang kedua merupakan rata-rata dari massa atom relatif unsur pertama dan ketiga.</div>
+          <div class="col-md-5 mb-5">Unsur-unsur yang memiliki sifat yang sama dikelompokkan ke dalam kelompok kelompok yang terdiri atas tiga unsur (Triade),di mana massa atom relatatif unsur yang kedua merupakan rata-rata dari massa atom relatif unsur pertama dan ketiga.</div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-5 mb-3 fw-bold">Tabel Periodik Mendeleev</div>
+          <div class="col-md-5 mb-3 fw-bold">Sistem Periodik Modern</div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-5">Jika unsur-unsur disusun berdasar kenaikan massa atom, terjadi pengulangan atau pola periodik sifat-sifat unsur. </div>
+          <div class="col-md-5">
+            <ul>
+              <li>Didasar pada tabel periodik bentuk panjang milik Henry Moseley</li>
+              <li>Disusun berdasarkan kenaikan nomor atom dan kemiripan sifat </li>
+              <li>Lajur horizontal disebut "periode",tersusun berdasarkan kenaikan nomor atom,sedangkan lajur vertikal disebut "golongan", tersusun berdasarkan kemiripan sifat</li>
+              <li>Sistem periodik unsur modern memiliki 7 periode dan 18 golongan yang terbagi menjadi 8 golongan utama (golongan A) dan 8 golongan transisi (golongan B)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,85.3C274.3,64,343,96,411,128C480,160,549,192,617,208C685.7,224,754,224,823,197.3C891.4,171,960,117,1029,133.3C1097.1,149,1166,235,1234,245.3C1302.9,256,1371,192,1406,160L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,192L34.3,202.7C68.6,213,137,235,206,250.7C274.3,267,343,277,411,277.3C480,277,549,267,617,250.7C685.7,235,754,213,823,186.7C891.4,160,960,128,1029,138.7C1097.1,149,1166,203,1234,213.3C1302.9,224,1371,192,1406,176L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </section>
+    <!-- Perkembangan Sistem Periodik Unsur Akhir -->
+    <!-- Periode & Golongan Awal -->
+    <section id="PeriodedanGolongan" class="pt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center pb-5"><h2>Periode dan Golongan</h2></div>
+        <div class="row text-center justify-content-center pb-3 fw-bold">Unsur-Unsur Utama (Golongan A)</div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8 pb-5">
+            <table class="table table-bordered border-info">
+              <tr>
+                <td>Golongan</td>
+                <td>Nama Golongan</td>
+                <td>Elektron Valensi</td>
+                <td>Blok</td>
+              </tr>
+              <tr>
+                <td>IA</td>
+                <td>Alkali</td>
+                <td>ns<sup>1</sup></td>
+                <td>s</td>
+              </tr>
+              <tr>
+                <td>IIA</td>
+                <td>Alkali Tanah</td>
+                <td>ns<sup>2</sup></td>
+                <td>s</td>
+              </tr>
+              <tr>
+                <td>IIIA</td>
+                <td>Boron</td>
+                <td>ns<sup>2</sup>np<sup>1</sup></td>
+                <td>p</td>
+              </tr>
+              <tr>
+                <td>IVA</td>
+                <td>Karbon</td>
+                <td>ns<sup>2</sup>np<sup>2</sup></td>
+                <td>p</td>
+              </tr>
+              <tr>
+                <td>VA</td>
+                <td>Nitrogen</td>
+                <td>ns<sup>2</sup>np<sup>3</sup></td>
+                <td>p</td>
+              </tr>
+              <tr>
+                <td>VIA</td>
+                <td>Oksigen</td>
+                <td>ns<sup>2</sup>np<sup>4</sup></td>
+                <td>p</td>
+              </tr>
+              <tr>
+                <td>VIIA</td>
+                <td>Halogen</td>
+                <td>ns<sup>2</sup>np<sup>5</sup></td>
+                <td>p</td>
+              </tr>
+              <tr>
+                <td>VIIIA</td>
+                <td>Gas Mulia</td>
+                <td>ns<sup>2</sup>np<sup>6</sup></td>
+                <td>p</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center pb-3 fw-bold">Unsur-Unsur Transisi (Golongan B)</div>
+        <div class="row text-center justify-content-center pb-5">
+          <div class="col-md-8">
+            <table class="table table-bordered border-info">
+              <tr>
+                <td>Golongan</td>
+                <td>Elektron Valensi</td>
+                <td>Blok</td>
+              </tr>
+              <tr>
+                <td>IIIB</td>
+                <td>(n - 1)d<sup>1</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>IVB</td>
+                <td>(n - 1)d<sup>2</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VB</td>
+                <td>(n - 1)d<sup>3</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VIB</td>
+                <td>(n - 1)d<sup>5</sup>ns<sup>1</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VIIB</td>
+                <td>(n - 1)d<sup>5</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VIIIB</td>
+                <td>(n - 1)d<sup>6</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VIIIB</td>
+                <td>(n - 1)d<sup>7</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>VIIIB</td>
+                <td>(n - 1)d<sup>8</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>IB</td>
+                <td>(n - 1)d<sup>10</sup>ns<sup>1</sup></td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td>IIB</td>
+                <td>(n - 1)d<sup>10</sup>ns<sup>2</sup></td>
+                <td>d</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center pb-5 fw-bold">Unsur-Unsur Transisi Dalam</div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10 pb-3">Unsur-unsur yang pengisian elektronnya berakhir pada subkulit f. </div>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-5">1.unsur-unsur Lantanida berakhir pada 4f.</div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10">2.unsur-unsur Aktinida berakhir pada 5f.</div>
+        </div>
+      </div>      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L40,224C80,192,160,128,240,117.3C320,107,400,149,480,154.7C560,160,640,128,720,128C800,128,880,160,960,186.7C1040,213,1120,235,1200,208C1280,181,1360,107,1400,69.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,288L40,282.7C80,277,160,267,240,234.7C320,203,400,149,480,149.3C560,149,640,203,720,208C800,213,880,171,960,149.3C1040,128,1120,128,1200,133.3C1280,139,1360,149,1400,154.7L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </section>
+    <!-- Periode & Golongan Akhir -->
+    <!-- Sifat Keperiodikan Unsur Awal -->
+    <section id="Sifat" class="pt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center pb-5"><h2>Sifat Keperiodikan Unsur</h2></div>
+        <div class="row fw-bold justify-content-center pb-3">Jari-Jari Atom</div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10 pb-3">Didefinisikan sebagai setengah jarak antara dua inti atom yang berikatan dalam wujud padat.Kecendrungan ukuran atom-atom dan ion-ion adalah sebagai berikut
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8 pb-5">
+            <ul type="circle">
+                <li>Dalam satu golongan, jari-jari atom semakin besar dengan bertambahnya nomor atom karena nilai n kulit terluar semakin besar.</li>
+                <li>Dalam satu periode, jari-jari kovalen semakin kecil dengan bertambahnya nomor atom.Hal ini disebabkan karena tidak adanya perubahan pada kulit n yang ditempati atom dalam satu periode, sedangkan disaat yang sama jumlah proton dan neutron semakin banyak yang membuat daya tarik ke pusat atom semakin kuat sehingga jari-jari atom semakin kecil.</li>
+                <li>Kation memiliki jari-jari lebih kecil dibandingkan jari-jari kovalen karena semua elektron terluarnya dilepaskan.</li>
+                <li>Anion memiliki jari-jari lebih besar dibandingkan jari-jari van der waals karena elektron-elektron tambahan yang menempati n yang sama.</li>
+                <li>Kation selalu memiliki ukuran atom yang lebih kecil dibandingkan atom asalnya, sedangkan anion sebalikmya.</li>
+                <li>Jari-jari van der waals lebih besar dari jari-jari kovalen karena atom-atom saling terikat melalui pembagian elektron (tumpang tindih bagian ruang atom) untuk kovalen.</li>
+                <li>Dalam satu golongan, semakin besar nomor atom, maka jari-jari ikatan ion akan semakin besar pula, sedangkan dalam satu periode jari-jari kation semakin berkurang. </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row fw-bold justify-content-center pb-3">Energi Ionisasi</div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center pb-5">
+            <p>Energi yang diperlukan untuk melepas elektron valensi dari suatu atom atau ion dalam wujud gas. Nilai energi ionisasi bergantung pada jarak elektron valensi pada inti atom. Makin jauh jarak inti atom, makin lemah tarikan dari inti atom terhadap elektron sehingga elektron lebih mudah dilepas dan energi ionisasi semakin kecil. Energi ionisasi terbesar dimiliki oleh Helium (He, VIIIA)</p>
+            <p>Dalam satu golongan, dari atas ke bawah, energi ionisasi akan semakin kecil, karena jari-jari atom bertambah besar. Meskipun jumlah muatan positif dalam inti bertambah tetapi gaya tarik inti terhadap elektron terluar semakin lemah karena jari-jari semakin besar, sehingga energi ionisasi berkurang. </p>
+            <p>Dalam satu periode, dari kiri ke kanan, energi ionisasi akan semakin besar, Bertambahnya jumlah muatan positif dalam inti dan jumlah kulit yang tidak berubah menyebabkan gaya tarik inti semakin kuat. Akibatnya energi ionisasi semakin besar.</p>
+          </div>
+        </div>
+        <div class="row fw-bold justify-content-center pb-3">Afinitas Elektron</div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10 pb-5">Besarnya energi yang dihasilkan atau dilepaskan apabila suatu atom menarik sebuah elektron. Berbeda dengan ionisasi, afinitas elektron dapat berharga positif atau negatif. Jika satu elektron ditambahkan kepada atom yang stabil dan sejumlah energi diserap maka afinitas elektronnya berharga positif, namun jika energinya dilepaskan, maka afinitas elektronnya berharga negatif.</div>
+        </div>
+        <div class="row fw-bold text-center justify-content-center pb-3">Keelektronegatifan</div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-10">Kemampuan suatu unsur untuk menarik elektron dalam molekul suatu senyawa (dalam ikatannya).</div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,181.3C672,224,768,256,864,229.3C960,203,1056,117,1152,106.7C1248,96,1344,160,1392,192L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,181.3C672,224,768,256,864,229.3C960,203,1056,117,1152,106.7C1248,96,1344,160,1392,192L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+    <!-- Sifat Keperiodikan Unsur Akhir -->
+    <section id="Soal" class="pt-5">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center">
+          <h2>Latihan Soal</h2>
+        </div>
+        <div class="row">
+          <p>1. Dibawah ini yang <i>bukan</i> merupakan penemu teori atom adalah...</p>
+        </div>
+        <div class="row mb-3" id="Soal1">
+          <p><a href="#Soal1">A.</a> Rutherford</p>
+          <p><a href="#Soal1">B.</a> Dalton</p>
+          <p><a href="#Soal1">C.</a> Aufbau</p>
+          <p><a href="#Soal1">D.</a> Thompson</p>
+          <p><a href="#Soal1">E.</a> Bohr</p>
+        </div>
+        <div class="row">
+          <p>2. "Atom terdiri dari inti atom yang bermuatan positif dan elektron yang bergerak mengelilingi inti atom pada tingkat-tingkat energi tertentu." Pernyataan tersebut merupakan salah satu teori atom yang dikemukakan oleh...</p>
+        </div>
+        <div class="row mb-3" id="Soal2">
+          <p><a href="#Soal2">A.</a> Rutherford</p>
+          <p><a href="#Soal2">B.</a> Dalton</p>
+          <p><a href="#Soal2">C.</a> Mekanika Kuantum</p>
+          <p><a href="#Soal2">D.</a> Thompson</p>
+          <p><a href="#Soal2">E.</a> Bohr</p>
+        </div>
+        <div class="row">
+          <p>3. Pada tabel periodik modern, dalam satu golongan dari atas ke bawah, jari-jari atom akan relatif...</p>
+        </div>
+        <div class="row mb-3" id="Soal3">
+          <p><a href="#Soal3">A.</a> Membesar</p>
+          <p><a href="#Soal3">B.</a> Mengecil</p>
+          <p><a href="#Soal3">C.</a> Tetap</p>
+          <p><a href="#Soal3">D.</a> Menyusut</p>
+          <p><a href="#Soal3">E.</a> Berkurang</p>
+        </div>
+        <div class="row">
+          <p>4. O, S, dan Se merupakan lambang suatu unsur pada golongan yang sama, yakni golongan VIA, ketiga unsur itu juga memiliki jumlah elektron valensi yang sama, yaitu...</p>
+        </div>
+        <div class="row mb-3" id="Soal4">
+          <p><a href="#Soal4">A.</a> 3</p>
+          <p><a href="#Soal4">B.</a> 4</p>
+          <p><a href="#Soal4">C.</a> 5</p>
+          <p><a href="#Soal4">D.</a> 6</p>
+          <p><a href="#Soal4">E.</a> 7</p>
+        </div>
+        <div class="row">
+          <p>5. Jumlah neutron dari atom <sup>88</sup>Ca<sub>38</sub><sup>2+</sup> adalah...</p>
+        </div>
+        <div class="row mb-3" id="Soal5">
+          <p><a href="#Soal5">A.</a> 126</p>
+          <p><a href="#Soal5">B.</a> 88</p>
+          <p><a href="#Soal5">C.</a> 50</p>
+          <p><a href="#Soal5">D.</a> 38</p>
+          <p><a href="#Soal5">E.</a> 2</p>
+        </div>
+        <div class="row">
+          <p>6. Konfigurasi elektron <sub>19</sub>K yang benar menurut Bohr adalah...</p>
+        </div>
+        <div class="row mb-3" id="Soal6">
+          <p><a href="#Soal6">A.</a> 2-8-8-2</p>
+          <p><a href="#Soal6">B.</a> 2-8-8-1</p>
+          <p><a href="#Soal6">C.</a> 2-8-7-2</p>
+          <p><a href="#Soal6">D.</a> 2-8-7-1</p>
+          <p><a href="#Soal6">E.</a> 2-8-8-8</p>
+        </div>
+        <div class="row">
+          <p>7. Pada tabel periodik unsur, semakin bertambahnya nomor atom pada satu periode yang sama akan menyebabkan energi ionisasi suatu atom semakin besar, hal ini disebabkan karena... </p>
+        </div>
+        <div class="row mb-3" id="Soal7">
+          <p><a href="#Soal7">A.</a> Jumlah elektron yang ada semakin banyak</p>
+          <p><a href="#Soal7">B.</a> Jumlah proton dan neutron yang ada di dalam inti atom semakin banyak, sehingga lebih mudah melepas elektron</p>
+          <p><a href="#Soal7">C.</a> Semakin bertambahnya nomor atom, maka jumlah kulitnya semakin banyak, sehingga jarak inti atom kepada elektron semakin jauh</p>
+          <p><a href="#Soal7">D.</a> Jari-Jari atom tidak mengalami perubahan</p>
+          <p><a href="#Soal7">E.</a> Jumlah proton semakin banyak, namun di sisi lain jumlah kulit tidak bertambah, sehingga daya tarik inti atom semakin besar</p>
+        </div>
+        <div class="row">
+          <p>8. <sup>23</sup>Na<sub>11</sub> dan <sup>24</sup>Mg<sub>12</sub> merupakan kesamaan dari suatu atom yang dinamakan dengan...</p>
+        </div>
+        <div class="row mb-3" id="Soal8">
+          <p><a href="#Soal8">A.</a> Isoton</p>
+          <p><a href="#Soal8">B.</a> Isobar</p>
+          <p><a href="#Soal8">C.</a> Isomer</p>
+          <p><a href="#Soal8">D.</a> Isoelektron</p>
+          <p><a href="#Soal8">E.</a> Isotop</p>
+        </div>
+        <div class="row">
+          <p>9. Konfigurasi elektron <sub>47</sub>Ag yang benar menurut mekanika kuantum adalah...</p>
+        </div>
+        <div class="row mb-3" id="Soal9">
+          <p><a href="#Soal9">A.</a> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>2</sup> 4s<sup>9</sup></p>
+          <p><a href="#Soal9">B.</a> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>1</sup> 4s<sup>10</sup></p>
+          <p><a href="#Soal9">C.</a> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>9</sup> 5s<sup>2</sup></p>
+          <p><a href="#Soal9">D.</a> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>1</sup></sup></p>
+          <p><a href="#Soal9">E.</a> 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>5</sup> 5p<sup>6</sup></p>
+        </div>
+        <div class="row">
+          <p>10. Urutkanlah unsur K, Ca, Ac, dan Br, berdasarkan besarnya keelektronegatifan yang dimiliki, dari besar ke kecil adalah...</p>
+        </div>
+        <div class="row mb-3" id="Soal10">
+          <p><a href="#Soal10">A.</a> Br, Ac, Ca, K</p>
+          <p><a href="#Soal10">B.</a> Ac, Br, K, Ca</p>
+          <p><a href="#Soal10">C.</a> Ac, Br, Ca, K</p>
+          <p><a href="#Soal10">D.</a> K, Ca, Ac, Br</p>
+          <p><a href="#Soal10">E.</a> Ca, Ac, Br, K</p>
+        </div>
+        <div class="score">
+          <h5>Anda benar <span class="benar">0</span> dan salah <span class="salah">0</span> dari <span class="jmlSoal">0</span> soal</h5>
+          <h3>Nilai Anda</h3>
+          <div class="nilai">0</div>
+       </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,112C274.3,117,343,203,411,218.7C480,235,549,181,617,181.3C685.7,181,754,235,823,261.3C891.4,288,960,288,1029,256C1097.1,224,1166,160,1234,154.7C1302.9,149,1371,203,1406,229.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d3ffff" fill-opacity="1" d="M0,256L34.3,218.7C68.6,181,137,107,206,112C274.3,117,343,203,411,218.7C480,235,549,181,617,181.3C685.7,181,754,235,823,261.3C891.4,288,960,288,1029,256C1097.1,224,1166,160,1234,154.7C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </section>
+    <!-- Contact Awal -->
+    <section id="Contact" class="pt-5">
+      <div class="container">
+        <div class="row mb-3 text-center">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="nama" aria-describedby="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan </label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#d3ffff"
+          fill-opacity="1"
+          d="M0,32L40,32C80,32,160,32,240,74.7C320,117,400,203,480,218.7C560,235,640,181,720,138.7C800,96,880,64,960,69.3C1040,75,1120,117,1200,122.7C1280,128,1360,96,1400,80L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact Akhir -->
+    <!-- Footer Awal -->
+    <footer class="pb-5 text-center">
+      <p>Created with <svg style="color: magenta;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg> by <a href="">Agus Darmawan</a></p>
+    </footer>
+    <!-- Footer Akhir -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

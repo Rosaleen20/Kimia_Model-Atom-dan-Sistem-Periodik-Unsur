@@ -1,0 +1,187 @@
+body {
+  min-height: 10000px;
+  min-width: 600px;
+}
+
+nav {
+  background-color: aqua;
+}
+
+nav ul {
+  padding-right: 100px;
+}
+
+.jumbotron {
+  background-color: #d3ffff;
+}
+
+nav span a {
+  text-decoration: none;
+  color: black;
+}
+
+nav span a:hover {
+  color: magenta;
+}
+
+.dalton {
+  background-color: aqua;
+  width: 250px;
+  height: 200px;
+  line-height: 27px;
+  position: absolute;
+  top: 2040px;
+  left: 75px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.thompson {
+  background-color: aqua;
+  width: 250px;
+  height: 200px;
+  line-height: 27px;
+  position: absolute;
+  top: 2610px;
+  left: 190px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 61% 76%, 21% 100%, 33% 75%, 0% 75%);
+}
+
+.rutherford {
+  background-color: aqua;
+  width: 250px;
+  height: 200px;
+  line-height: 27px;
+  position: absolute;
+  top: 3185px;
+  left: 50px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.bohr {
+  background-color: aqua;
+  width: 250px;
+  height: 200px;
+  line-height: 27px;
+  position: absolute;
+  top: 3760px;
+  left: 370px;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 61% 76%, 21% 100%, 33% 75%, 0% 75%);
+}
+.turunin {
+  margin-bottom: 200px;
+}
+.turunin2 {
+  margin-bottom: 300px;
+}
+.turunin3 {
+  margin-bottom: 700px;
+}
+
+.kotak {
+  background-color: aqua;
+  width: 550px;
+  margin: 0px auto;
+  padding: 7px;
+  border-radius: 5%;
+  position: absolute;
+  top: 7210px;
+  left: 500px;
+}
+
+.kotak .satu {
+  margin: 0 auto;
+  width: 140px;
+}
+
+.kotak2 {
+  background-color: aqua;
+  width: 550px;
+  margin: 0px auto;
+  padding: 7px;
+  border-radius: 5%;
+  position: absolute;
+  top: 7980px;
+  left: 500px;
+}
+
+.kotak3 {
+  background-color: aqua;
+  width: 550px;
+  margin: 0px auto;
+  padding: 7px;
+  border-radius: 5%;
+  position: absolute;
+  top: 8750px;
+  left: 400px;
+}
+
+.kotak3 table {
+  text-align: center;
+}
+
+.notasi {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.notasi sup,
+.notasi sub {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+footer {
+  background-color: black;
+  height: 20px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: aqua;
+}
+footer p a:hover {
+  color: magenta;
+}
+
+.komen {
+  background-color: black;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 1px;
+  border-radius: 15%;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.komen:hover {
+  background-color: magenta;
+  color: black;
+}
+
+#Soal .row p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+}
+
+.nilai {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+  background-color: aqua;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.score {
+  text-align: center;
+}
